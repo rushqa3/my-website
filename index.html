@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Rushqa Khan — Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <!-- Header / Navbar -->
+    <header>
+        <nav class="navbar" role="navigation" aria-label="Main Navigation">
+            <div class="logo">Rushqa<span class="logo-accent">Khan</span></div>
+
+            <button id="menu-toggle" class="menu-toggle" aria-label="Toggle menu" aria-expanded="false">&#9776;</button>
+
+            <ul class="nav-links">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#contact" class="nav-link">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Home -->
+    <main>
+        <section id="home" class="home">
+    <div class="home-content">
+        <h1>Hello, I'm <span>Rushqa Khan</span></h1>
+        <p>Front-end developer crafting bright, usable, and accessible websites.</p>
+        <a href="#projects" class="btn">View My Work</a>
+    </div>
+</section>
+
+        <!-- About -->
+        <section id="about" class="about-section reveal">
+            <div class="container about-container">
+                <div class="about-image">
+                    <!-- Make sure website-jpg.jpg is in the same folder -->
+                    <img src="website-jpg.jpg" alt="Rushqa Khan — Profile picture">
+                </div>
+
+                <div class="about-text">
+                    <h2>About Me</h2>
+                    <p>
+                        Hello! I’m <strong>Rushqa Khan</strong> — a front-end developer who loves turning ideas into delightful
+                        web experiences. I focus on clean UI, performance and accessibility, using HTML, CSS and JavaScript.
+                    </p>
+
+                    <p>
+                        I enjoy sketching UI concepts, experimenting with micro-interactions, and learning new frontend patterns.
+                        This portfolio shows a few fictional projects built to demonstrate responsive design and polished UI.
+                    </p>
+
+                    <a class="btn" href="#contact">Contact Me</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects -->
+        <section id="projects" class="projects-section reveal">
+            <div class="container">
+                <h2>My Projects</h2>
+                <p class="muted">A few fictional projects showcasing front-end skills.</p>
+
+                <div class="projects-grid">
+                    <article class="project-card" tabindex="0">
+                        <img src="https://via.placeholder.com/600x360.png?text=Portfolio+Website" alt="Portfolio project screenshot">
+                        <div class="project-body">
+                            <h3>Portfolio Website</h3>
+                            <p>Responsive portfolio built with semantic HTML, flexible CSS, and interactive JS features.</p>
+                            <a class="btn small" href="#" aria-label="View details Portfolio Website">View Details</a>
+                        </div>
+                    </article>
+
+                    <article class="project-card" tabindex="0">
+                        <img src="https://via.placeholder.com/600x360.png?text=E-Commerce+Store" alt="E-commerce project screenshot">
+                        <div class="project-body">
+                            <h3>E-Commerce Store</h3>
+                            <p>Mock online store with product filters, cart UX patterns and mobile-first design.</p>
+                            <a class="btn small" href="#" aria-label="View details E Commerce Store">View Details</a>
+                        </div>
+                    </article>
+
+                    <article class="project-card" tabindex="0">
+                        <img src="https://via.placeholder.com/600x360.png?text=Weather+App" alt="Weather app project screenshot">
+                        <div class="project-body">
+                            <h3>Weather App</h3>
+                            <p>Small app demoing API integration and dynamic UI updates for real-time weather info.</p>
+                            <a class="btn small" href="#" aria-label="View details Weather App">View Details</a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact -->
+        <section id="contact" class="contact-section reveal">
+            <div class="container contact-container">
+                <h2>Contact Me</h2>
+                <p class="muted">Have a question or a project? Send a message or reach me directly below.</p>
+
+                <form class="contact-form" action="#" method="post" aria-label="Contact form">
+                    <div class="form-row">
+                        <label for="name">Name</label>
+                        <input id="name" name="name" type="text" placeholder="Your full name" required>
+                    </div>
+
+                    <div class="form-row">
+                        <label for="email">Email</label>
+                        <input id="email" name="email" type="email" placeholder="your@email.com" required>
+                    </div>
+
+                    <div class="form-row">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" placeholder="Tell me about your project..." required></textarea>
+                    </div>
+
+                    <div class="form-row">
+                        <button class="btn" type="submit">Send Message</button>
+                    </div>
+                </form>
+
+                <!-- Contact details -->
+                <div class="contact-info" aria-label="Other contact information">
+                    <p><strong>Email:</strong> rushqakhan@example.com</p>
+                    <p><strong>WhatsApp:</strong> <a href="https://wa.me/919876543210" target="_blank" rel="noopener">+91 98765 43210</a></p>
+                    <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/rushqakhan" target="_blank" rel="noopener">linkedin.com/in/rushqakhan</a></p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>© 2025 Rushqa Khan — All rights reserved</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
